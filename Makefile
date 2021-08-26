@@ -14,6 +14,3 @@ prepare-db:
 
 run-db:
 	DB_URL=$(DB) python db/utils/db_tools.py
-
-run-admin:
-	DB_URL=$(DB) python admin/app.py
