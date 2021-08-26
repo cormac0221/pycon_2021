@@ -1,0 +1,28 @@
+--index-url http://registry.tcsbank.ru/repository/pypi-all/simple
+
+alembic==1.6.5; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.6.0")
+asgiref==3.4.1; python_version >= "3.6"
+click==7.1.2; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
+fastapi==0.68.1; python_version >= "3.6"
+flask-admin==1.5.8
+flask==1.1.4; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.5.0")
+greenlet==1.1.1; python_version >= "3" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3"
+gunicorn==19.9.0; (python_version >= "2.6" and python_full_version < "3.0.0") or (python_full_version >= "3.2.0")
+h11==0.12.0; python_version >= "3.6"
+importlib-metadata==4.7.0; python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "3.8" or python_full_version >= "3.6.0" and python_version < "3.8" and python_version >= "3.6"
+itsdangerous==1.1.0; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
+jinja2==2.11.3; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
+mako==1.1.5; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0"
+markupsafe==2.0.1; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.6"
+psycopg2-binary==2.9.1; python_version >= "3.6"
+pydantic==1.8.2; python_full_version >= "3.6.1" and python_version >= "3.6"
+python-dateutil==2.8.2; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0"
+python-editor==1.0.4; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0"
+six==1.16.0; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0"
+sqlalchemy==1.4.22; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.6.0")
+starlette==0.14.2; python_version >= "3.6"
+typing-extensions==3.10.0.0; python_full_version >= "3.6.1" and python_version < "3.8" and python_version >= "3.6"
+uvicorn==0.15.0
+werkzeug==1.0.1; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
+wtforms==2.3.3
+zipp==3.5.0; python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "3.8" or python_full_version >= "3.6.0" and python_version < "3.8" and python_version >= "3.6"
