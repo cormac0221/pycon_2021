@@ -1,0 +1,13 @@
+version: "3.4"
+
+services:
+  db:
+    image: postgres:11.6
+    command: ["-c", "fsync=${FSYNC:-off}"]
+    volumes:
+      - ./db/utils/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5432:5432
