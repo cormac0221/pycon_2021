@@ -4,11 +4,6 @@ version = "1.0.0"
 description = "Wizard admin"
 authors = ["chatbot_dev <chatbot_dev@tinkoff.ru>"]
 
-[[tool.poetry.source]]
-name = "internal"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-default = true
-
 [tool.poetry.dependencies]
 python = "^3.7"
 

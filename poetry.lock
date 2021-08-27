@@ -12,11 +12,6 @@ python-dateutil = "*"
 python-editor = ">=0.3"
 SQLAlchemy = ">=1.3.0"
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "asgiref"
 version = "3.4.1"
@@ -31,11 +26,6 @@ typing-extensions = {version = "*", markers = "python_version < \"3.8\""}
 [package.extras]
 tests = ["pytest", "pytest-asyncio", "mypy (>=0.800)"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "click"
 version = "7.1.2"
@@ -43,11 +33,6 @@ description = "Composable command line interface toolkit"
 category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
-
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
 
 [[package]]
 name = "fastapi"
@@ -66,11 +51,6 @@ all = ["requests (>=2.24.0,<3.0.0)", "aiofiles (>=0.5.0,<0.6.0)", "jinja2 (>=2.1
 dev = ["python-jose[cryptography] (>=3.3.0,<4.0.0)", "passlib[bcrypt] (>=1.7.2,<2.0.0)", "autoflake (>=1.3.1,<2.0.0)", "flake8 (>=3.8.3,<4.0.0)", "uvicorn[standard] (>=0.12.0,<0.14.0)", "graphene (>=2.1.8,<3.0.0)"]
 doc = ["mkdocs (>=1.1.2,<2.0.0)", "mkdocs-material (>=7.1.9,<8.0.0)", "mdx-include (>=1.4.1,<2.0.0)", "mkdocs-markdownextradata-plugin (>=0.1.7,<0.2.0)", "typer-cli (>=0.0.12,<0.0.13)", "pyyaml (>=5.3.1,<6.0.0)"]
 test = ["pytest (>=6.2.4,<7.0.0)", "pytest-cov (>=2.12.0,<3.0.0)", "pytest-asyncio (>=0.14.0,<0.15.0)", "mypy (==0.812)", "flake8 (>=3.8.3,<4.0.0)", "black (==20.8b1)", "isort (>=5.0.6,<6.0.0)", "requests (>=2.24.0,<3.0.0)", "httpx (>=0.14.0,<0.15.0)", "email_validator (>=1.1.1,<2.0.0)", "sqlalchemy (>=1.3.18,<1.4.0)", "peewee (>=3.13.3,<4.0.0)", "databases[sqlite] (>=0.3.2,<0.4.0)", "orjson (>=3.2.1,<4.0.0)", "ujson (>=4.0.1,<5.0.0)", "async_exit_stack (>=1.0.1,<2.0.0)", "async_generator (>=1.10,<2.0.0)", "python-multipart (>=0.0.5,<0.0.6)", "aiofiles (>=0.5.0,<0.6.0)", "flask (>=1.1.2,<2.0.0)"]
-
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
 
 [[package]]
 name = "flask"
@@ -91,11 +71,6 @@ dev = ["pytest", "coverage", "tox", "sphinx", "pallets-sphinx-themes", "sphinxco
 docs = ["sphinx", "pallets-sphinx-themes", "sphinxcontrib-log-cabinet", "sphinx-issues"]
 dotenv = ["python-dotenv"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "flask-admin"
 version = "1.5.8"
@@ -112,11 +87,6 @@ wtforms = "*"
 aws = ["boto"]
 azure = ["azure-storage-blob"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "greenlet"
 version = "1.1.1"
@@ -127,11 +97,6 @@ python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*"
 
 [package.extras]
 docs = ["sphinx"]
-
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
 
 [[package]]
 name = "gunicorn"
@@ -146,11 +111,6 @@ eventlet = ["eventlet (>=0.9.7)"]
 gevent = ["gevent (>=0.13)"]
 tornado = ["tornado (>=0.2)"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "h11"
 version = "0.12.0"
@@ -159,14 +119,9 @@ category = "main"
 optional = false
 python-versions = ">=3.6"
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "importlib-metadata"
-version = "4.7.0"
+version = "4.7.1"
 description = "Read metadata from Python packages"
 category = "main"
 optional = false
@@ -181,11 +136,6 @@ docs = ["sphinx", "jaraco.packaging (>=8.2)", "rst.linker (>=1.9)"]
 perf = ["ipython"]
 testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.0.1)", "packaging", "pep517", "pyfakefs", "flufl.flake8", "pytest-perf (>=0.9.2)", "pytest-black (>=0.3.7)", "pytest-mypy", "importlib-resources (>=1.3)"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "itsdangerous"
 version = "1.1.0"
@@ -193,11 +143,6 @@ description = "Various helpers to pass data to untrusted environments and back."
 category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
 
 [[package]]
 name = "jinja2"
@@ -212,11 +157,6 @@ MarkupSafe = ">=0.23"
 
 [package.extras]
 i18n = ["Babel (>=0.8)"]
-
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
 
 [[package]]
 name = "mako"
@@ -233,11 +173,6 @@ MarkupSafe = ">=0.9.2"
 babel = ["babel"]
 lingua = ["lingua"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "markupsafe"
 version = "2.0.1"
@@ -246,11 +181,6 @@ category = "main"
 optional = false
 python-versions = ">=3.6"
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "psycopg2-binary"
 version = "2.9.1"
@@ -258,11 +188,6 @@ description = "psycopg2 - Python-PostgreSQL Database Adapter"
 category = "main"
 optional = false
 python-versions = ">=3.6"
-
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
 
 [[package]]
 name = "pydantic"
@@ -279,11 +204,6 @@ typing-extensions = ">=3.7.4.3"
 dotenv = ["python-dotenv (>=0.10.4)"]
 email = ["email-validator (>=1.0.3)"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "python-dateutil"
 version = "2.8.2"
@@ -295,11 +215,6 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
 [package.dependencies]
 six = ">=1.5"
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "python-editor"
 version = "1.0.4"
@@ -308,11 +223,6 @@ category = "main"
 optional = false
 python-versions = "*"
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "six"
 version = "1.16.0"
@@ -320,11 +230,6 @@ description = "Python 2 and 3 compatibility utilities"
 category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
-
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
 
 [[package]]
 name = "sqlalchemy"
@@ -358,11 +263,6 @@ postgresql_psycopg2cffi = ["psycopg2cffi"]
 pymysql = ["pymysql (<1)", "pymysql"]
 sqlcipher = ["sqlcipher3-binary"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "starlette"
 version = "0.14.2"
@@ -374,11 +274,6 @@ python-versions = ">=3.6"
 [package.extras]
 full = ["aiofiles", "graphene", "itsdangerous", "jinja2", "python-multipart", "pyyaml", "requests"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "typing-extensions"
 version = "3.10.0.0"
@@ -386,11 +281,6 @@ description = "Backported and Experimental Type Hints for Python 3.5+"
 category = "main"
 optional = false
 python-versions = "*"
-
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
 
 [[package]]
 name = "uvicorn"
@@ -409,11 +299,6 @@ typing-extensions = {version = "*", markers = "python_version < \"3.8\""}
 [package.extras]
 standard = ["websockets (>=9.1)", "httptools (>=0.2.0,<0.3.0)", "watchgod (>=0.6)", "python-dotenv (>=0.13)", "PyYAML (>=5.1)", "uvloop (>=0.14.0,!=0.15.0,!=0.15.1)", "colorama (>=0.4)"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "werkzeug"
 version = "1.0.1"
@@ -425,11 +310,6 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 [package.extras]
 dev = ["pytest", "pytest-timeout", "coverage", "tox", "sphinx", "pallets-sphinx-themes", "sphinx-issues"]
 watchdog = ["watchdog"]
-
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
 
 [[package]]
 name = "wtforms"
@@ -447,11 +327,6 @@ email = ["email-validator"]
 ipaddress = ["ipaddress"]
 locale = ["Babel (>=1.3)"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [[package]]
 name = "zipp"
 version = "3.5.0"
@@ -464,15 +339,10 @@ python-versions = ">=3.6"
 docs = ["sphinx", "jaraco.packaging (>=8.2)", "rst.linker (>=1.9)"]
 testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.0.1)", "jaraco.itertools", "func-timeout", "pytest-black (>=0.3.7)", "pytest-mypy"]
 
-[package.source]
-type = "legacy"
-url = "http://registry.tcsbank.ru/repository/pypi-all/simple"
-reference = "internal"
-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "c35ac1d5fbdbbc1a3bc905a6b6e6d9cce446231cc0fec508761b2987893e29a7"
+content-hash = "c005ea7e6239930f906396340a552f002e874f8be491dd97e675c7ec724758ac"
 
 [metadata.files]
 alembic = [
@@ -559,8 +429,8 @@ h11 = [
     {file = "h11-0.12.0.tar.gz", hash = "sha256:47222cb6067e4a307d535814917cd98fd0a57b6788ce715755fa2b6c28b56042"},
 ]
 importlib-metadata = [
-    {file = "importlib_metadata-4.7.0-py3-none-any.whl", hash = "sha256:a69df6d94f8ac09cd46fdf79a955c153164b312442f7594a3eeeec46f230fe2b"},
-    {file = "importlib_metadata-4.7.0.tar.gz", hash = "sha256:1be82867064622fe56c7046bb5280063949f56c0abcdfc3cd33875efd4fc5498"},
+    {file = "importlib_metadata-4.7.1-py3-none-any.whl", hash = "sha256:9e04bf59076a15a9b6dd9c27806e8fcdf15280ba529c6a8cc3f4d5b4875bdd61"},
+    {file = "importlib_metadata-4.7.1.tar.gz", hash = "sha256:c4eb3dec5f697682e383a39701a7de11cd5c02daf8dd93534b69e3e6473f6b1b"},
 ]
 itsdangerous = [
     {file = "itsdangerous-1.1.0-py2.py3-none-any.whl", hash = "sha256:b12271b2047cb23eeb98c8b5622e2e5c5e9abd9784a153e9d8ef9cb4dd09d749"},
@@ -692,7 +562,9 @@ python-dateutil = [
 python-editor = [
     {file = "python-editor-1.0.4.tar.gz", hash = "sha256:51fda6bcc5ddbbb7063b2af7509e43bd84bfc32a4ff71349ec7847713882327b"},
     {file = "python_editor-1.0.4-py2-none-any.whl", hash = "sha256:5f98b069316ea1c2ed3f67e7f5df6c0d8f10b689964a4a811ff64f0106819ec8"},
+    {file = "python_editor-1.0.4-py2.7.egg", hash = "sha256:ea87e17f6ec459e780e4221f295411462e0d0810858e055fc514684350a2f522"},
     {file = "python_editor-1.0.4-py3-none-any.whl", hash = "sha256:1bf6e860a8ad52a14c3ee1252d5dc25b2030618ed80c022598f00176adc8367d"},
+    {file = "python_editor-1.0.4-py3.5.egg", hash = "sha256:c3da2053dbab6b29c94e43c486ff67206eafbe7eb52dbec7390b5e2fb05aac77"},
 ]
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
