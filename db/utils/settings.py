@@ -1,14 +1,13 @@
+import json
+import re
 import socket
+from functools import partial
 from typing import Any, Dict
 
 from pydantic import BaseModel, BaseSettings
+from pydantic.json import custom_pydantic_encoder
 from sqlalchemy import create_engine
 from sqlalchemy.engine import Engine
-import json
-import re
-from functools import partial
-
-from pydantic.json import custom_pydantic_encoder
 
 from db import metadata
 

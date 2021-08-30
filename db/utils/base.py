@@ -1,10 +1,10 @@
 import re
-from typing import Union, Tuple, Type, Optional, Any, List
+from typing import Any, List, Optional, Tuple, Type, Union
 
 import sqlalchemy as sa
 from sqlalchemy import MetaData
 from sqlalchemy.ext.declarative import as_declarative, declared_attr
-from sqlalchemy.orm import sessionmaker, scoped_session, Mapper, Session, Query
+from sqlalchemy.orm import Mapper, Query, Session, scoped_session, sessionmaker
 from sqlalchemy_utils import generic_repr
 
 convention = {
