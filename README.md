@@ -17,4 +17,4 @@
 
 При ошибке импортов экспортируйте PYTHONPATH:
 
-`export PYTHONPAT=.`
+`export PYTHONPATH=.`
