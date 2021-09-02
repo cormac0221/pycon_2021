@@ -12,10 +12,6 @@ prepare-db:
 	docker-compose down -v
 	docker-compose up -d db
 
-pretty:
-	$(VENV)/bin/black --target-version py37
-	$(VENV)/bin/unify
-
 run-db:
 	DB_URL=$(DB) python db/utils/db_tools.py
 
