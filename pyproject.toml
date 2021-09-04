@@ -2,12 +2,10 @@
 name = "wizard"
 version = "1.0.0"
 description = "Wizard admin"
-authors = ["chatbot_dev <chatbot_dev@tinkoff.ru>"]
-
-[[tool.poetry.source]]
-name = "internal"
-url = "https://registry.tcsbank.ru/repository/pypi-all/simple"
-default = true
+authors = [
+    "Iya Ivanikov <rize95@icloud.com>",
+    "Tinkoff Dialog System Backend Team <bds-dev@tinkoff.ru>"
+    ]
 
 [tool.poetry.scripts]
 chatbot = 'cli:main_app'
