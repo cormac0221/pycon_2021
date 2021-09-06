@@ -15,6 +15,9 @@
 
 `. .venv/bin/activate`
 
+Затем `make prepare-db` 
+
+
 При ошибке импортов экспортируйте PYTHONPATH:
 
 `export PYTHONPATH=.`
