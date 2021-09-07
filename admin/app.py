@@ -1,3 +1,5 @@
+from typing import cast
+
 from flask import Flask
 from flask_admin import Admin, AdminIndexView
 
@@ -15,14 +17,16 @@ def create_app() -> Flask:
 
     from admin.views.income import IncomeView
     from admin.views.individual import IndividualView
+
     admin.add_view(IndividualView(Individual, current_session, name='Физлицо'))
     admin.add_view(IncomeView(TaxableIncome, current_session, name='Облагаемый доход'))
 
-    return admin.app
+    return cast(Flask, admin.app)
 
 
 if __name__ == '__main__':
     from db import DBSettings
+
     DBSettings().setup_db()
 
     app = create_app()

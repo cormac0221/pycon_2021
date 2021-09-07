@@ -13,5 +13,5 @@ def create_all() -> None:
     echo('complete!')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     create_all()

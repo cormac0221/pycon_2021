@@ -46,12 +46,12 @@ def _get_query_cls(mapper: Union[Tuple[Type[Any], ...], Mapper], session: Sessio
     if mapper:
         m = mapper
         if isinstance(m, tuple):
-            m = mapper[0]
+            m = mapper[0]  # type: ignore
         if isinstance(m, Mapper):
             m = m.entity
 
         try:
-            return m.__query_cls__(mapper, session)
+            return m.__query_cls__(mapper, session)  # type: ignore
         except AttributeError:
             pass
 

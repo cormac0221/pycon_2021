@@ -25,7 +25,7 @@ class UserNotFoundError(Exception):
     pass
 
 
-def get_individ_info(inn: int) -> Optional[IndividInfo]:
+def get_individ_info(inn: int) -> IndividInfo:
     with create_session() as session:
         individ = (
             session.query(Individual).options(joinedload(Individual.income)).filter(Individual.inn == inn)
@@ -39,9 +39,5 @@ def get_individ_info(inn: int) -> Optional[IndividInfo]:
             incomes.append(Income(month=income.month, sum=income.sum))
 
         return IndividInfo(
-            inn=individ.inn,
-            name=individ.name,
-            family_name=individ.family_name,
-            forname=individ.forname,
-            income=incomes
+            inn=individ.inn, name=individ.name, family_name=individ.family_name, forname=individ.forname, income=incomes
         )

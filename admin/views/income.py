@@ -1,14 +1,14 @@
 from typing import Any, cast
-from markupsafe import Markup
 
 from flask_admin.contrib.sqla import ModelView
 from flask_admin.model.form import InlineFormAdmin
+from markupsafe import Markup
+
+from db import TaxableIncome
 
 
-def individ_formatter(view: 'IncomeView', context: Any, model: 'TaxableIncome', name: str) -> Markup:
-    return cast(
-        Markup, f'{model.individual.name} {model.individual.family_name} {model.individual.forname}'
-    )
+def individ_formatter(view: 'IncomeView', context: Any, model: TaxableIncome, name: str) -> Markup:
+    return cast(Markup, f'{model.individual.name} {model.individual.family_name} {model.individual.forname}')
 
 
 class IncomeView(ModelView):
@@ -21,9 +21,7 @@ class IncomeView(ModelView):
 
     column_sortable_list = ['created_at', 'month']
 
-    column_formatters = {
-       'individual': individ_formatter
-    }
+    column_formatters = {'individual': individ_formatter}
 
 
 class IncomeInlineAdmin(InlineFormAdmin):
