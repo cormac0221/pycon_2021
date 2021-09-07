@@ -5,7 +5,7 @@ from db.utils.base import BaseTable
 
 
 class Individual(BaseTable):
-    """Даненые о физическом лице"""
+    """Данные о физическом лице"""
 
     name = sa.Column(sa.Text, nullable=False, doc='Имя')
     family_name = sa.Column(sa.Text, nullable=False, doc='Фамилия')
